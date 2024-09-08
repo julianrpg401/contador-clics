@@ -1,9 +1,12 @@
 import React from "react";
+import './contador.css';
 
-function Contador() {
+function Contador({ numClics }){
   return(
-    <div>
-      <p>Julian</p>
+    <div className='contador'>
+      {numClics}
     </div>
   );
 }
+
+export { Contador };

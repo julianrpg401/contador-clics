@@ -1,6 +1,7 @@
 .boton__clic, .boton__reiniciar{
   display: block;
   width: 30%;
+  max-width: 180px;
   height: 3rem;
   border: none;
   border-radius: .5rem;
@@ -8,4 +9,8 @@
   font-weight: 700;
   color: #01818a;
   appearance: none;
+}
+
+.boton__clic:hover, .boton__reiniciar:hover{
+  background-color: #fac1c9;
 }
