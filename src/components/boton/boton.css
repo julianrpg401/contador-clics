@@ -6,20 +6,6 @@
   border-radius: .5rem;
   font-family: 'Montserrat';
   font-weight: 700;
+  color: #01818a;
   appearance: none;
-}
-
-.boton__clic{
-  border: 3px solid white;
-  background-color: transparent;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-}
-
-.boton__reiniciar{
-  color: #005f66;
-}
-
-.boton__clic, .boton__reiniciar:hover{
-  background-color: #00741b;
 }

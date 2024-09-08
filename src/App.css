@@ -16,6 +16,7 @@
 
 .freecodecamp__logo__contenedor{
   width: 50%;
+  max-width: 500px;
   height: min-content;
   margin-top: 5rem;
 }
